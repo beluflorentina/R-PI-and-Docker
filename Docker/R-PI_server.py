@@ -3,7 +3,7 @@ import re
 import requests
 
 os.system("arp -a>> arp.txt")
-with open("arp.txt", "r+") as arp:#r+ for updating the file=trincate
+with open("arp.txt", "r+") as arp:#r+ for updating the file=truncate
     arp_list=list(arp.readlines())
     #print(lista_arp)
     for i in arp_list:
